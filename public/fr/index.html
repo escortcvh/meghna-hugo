@@ -61,7 +61,7 @@
 <!-- Welcome Slider-->
 <section class="hero-area" style='background-image: url("https://examplesite.com/images/backgrounds/hero-area.webp")'>
 	
-	<img class="lozad" style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url(https:\/\/examplesite.com\/images\/backgrounds\/hero-area.jpg)'" data-src="https://examplesite.com/images/backgrounds/hero-area.webp" />
+	<img class="lozad d-none" data-src="https://examplesite.com/images/backgrounds/hero-area.webp" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url(https:\/\/examplesite.com\/images\/backgrounds\/hero-area.jpg)'"/>
 
 	<div class="block">
 		
@@ -94,24 +94,27 @@
 
 			<div class="collapse navbar-collapse" id="navigation">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a class="nav-link" href="#body">Accueil</a></li>
 					
+					<li class="nav-item">
+            <a class="nav-link" href="https://examplesite.com/fr/about">about</a>
+					</li>
 					
-					<li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+					<li class="nav-item">
+            <a class="nav-link" href="https://examplesite.com/fr/portfolio">portfolio</a>
+					</li>
 					
-					<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+					<li class="nav-item">
+            <a class="nav-link" href="https://examplesite.com/fr/pricing"></a>
+					</li>
 					
-					<li class="nav-item"><a class="nav-link" href="#pricing"></a></li>
+					<li class="nav-item">
+            <a class="nav-link" href="https://examplesite.com/fr/blog">blog</a>
+					</li>
 					
-					<li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+					<li class="nav-item">
+            <a class="nav-link" href="https://examplesite.com/fr/contact">contact</a>
+					</li>
 					
-					<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-					
-
-					
-
-					
-
 				</ul>
 				
 				<select id="select-language" onchange="location = this.value;">
@@ -612,7 +615,7 @@
 		<div class="row shuffle-wrapper justify-content-center">
 			<!-- portfolio item -->
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;design&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/portfolio/portfolio-1.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/portfolio\/portfolio-1.jpg'" alt="Tag Design">
@@ -631,7 +634,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;development&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/portfolio/portfolio-2.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/portfolio\/portfolio-2.jpg'" alt="Sound system">
@@ -650,7 +653,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;design&quot;,&quot;development&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/portfolio/portfolio-3.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/portfolio\/portfolio-3.jpg'" alt="Clock Product">
@@ -669,7 +672,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;photography&quot;,&quot;development&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/portfolio/portfolio-4.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/portfolio\/portfolio-4.jpg'" alt="Bottol Label">
@@ -688,7 +691,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;design&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/portfolio/portfolio-5.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/portfolio\/portfolio-5.jpg'" alt="Shopping Bag">
@@ -707,7 +710,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;photography&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/portfolio/portfolio-6.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/portfolio\/portfolio-6.jpg'" alt="Tag Design">
@@ -726,7 +729,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;development&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/portfolio/portfolio-7.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/portfolio\/portfolio-7.jpg'" alt="Business Card">
@@ -745,7 +748,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;design&quot;,&quot;development&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/portfolio/portfolio-8.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/portfolio\/portfolio-8.jpg'" alt="Stationary Design">
@@ -764,7 +767,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;design&quot;,&quot;photography&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/portfolio/portfolio-2.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/portfolio\/portfolio-2.jpg'" alt="Tag Design">

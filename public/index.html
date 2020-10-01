@@ -61,7 +61,7 @@
 <!-- Welcome Slider-->
 <section class="hero-area" style='background-image: url("https://examplesite.com/images/backgrounds/dawn1.webp")'>
 	
-	<img class="lozad" style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url(https:\/\/examplesite.com\/images\/backgrounds\/dawn1.jpg)'" data-src="https://examplesite.com/images/backgrounds/dawn1.webp" />
+	<img class="lozad d-none" data-src="https://examplesite.com/images/backgrounds/dawn1.webp" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url(https:\/\/examplesite.com\/images\/backgrounds\/dawn1.jpg)'"/>
 
 	<div class="block">
 		
@@ -94,24 +94,27 @@
 
 			<div class="collapse navbar-collapse" id="navigation">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a class="nav-link" href="#body">Home</a></li>
 					
+					<li class="nav-item">
+            <a class="nav-link" href="https://examplesite.com/about">about</a>
+					</li>
 					
-					<li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+					<li class="nav-item">
+            <a class="nav-link" href="https://examplesite.com/portfolio">portfolio</a>
+					</li>
 					
-					<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+					<li class="nav-item">
+            <a class="nav-link" href="https://examplesite.com/pricing"></a>
+					</li>
 					
-					<li class="nav-item"><a class="nav-link" href="#pricing"></a></li>
+					<li class="nav-item">
+            <a class="nav-link" href="https://examplesite.com/blog">blog</a>
+					</li>
 					
-					<li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+					<li class="nav-item">
+            <a class="nav-link" href="https://examplesite.com/contact">contact</a>
+					</li>
 					
-					<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-					
-
-					
-
-					
-
 				</ul>
 				
 				<select id="select-language" onchange="location = this.value;">
@@ -411,7 +414,7 @@
 		<div class="row shuffle-wrapper justify-content-center">
 			<!-- portfolio item -->
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;pets&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/portfolio/petstain.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/portfolio\/petstain.png'" alt="Pet Stain &amp; Odour Remover">
@@ -430,7 +433,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;floorwall&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/products/t_f.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/products\/t_f.jpg'" alt="Tile &amp; Floor Cleaner">
@@ -449,7 +452,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;bathroom&quot;,&quot;floorwall&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/products/bathroom.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/products\/bathroom.png'" alt="Bathroom Cleaner">
@@ -468,7 +471,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;carpets&quot;,&quot;upholstery&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/products/carpet.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/products\/carpet.png'" alt="Carpet &amp; Upholstery Cleaner">
@@ -487,7 +490,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;kitchen&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/products/kitchen.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/products\/kitchen.png'" alt="Kitchen Cleaner">
@@ -506,7 +509,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;laundry&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/products/laundry.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/products\/laundry.png'" alt="Laundry Auto Liquid">
@@ -525,7 +528,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;kennels&quot;,&quot;wastebins&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/products/o_b.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/products\/o_b.png'" alt="Outdoor &amp; Bin Cleaner">
@@ -544,7 +547,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;kitchen&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/products/dishwash.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/products\/dishwash.png'" alt="Dishwashing Liquid">
@@ -563,7 +566,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;toilet&quot;,&quot;bathroom&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/products/toilet.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/products\/toilet.png'" alt="Toilet Cleaner">
@@ -582,7 +585,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;drain&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/products/drain.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/products\/drain.jpg'" alt="Drain Maintenance Cleaner">
@@ -601,7 +604,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;waste-water&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/products/grey-water.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/products\/grey-water.jpg'" alt="Grey Water Treatment">
@@ -620,7 +623,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;laundry&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/products/laundry-pre.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/products\/laundry-pre.jpg'" alt="Laundry Pre-Wash Treatment">
@@ -639,7 +642,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;hair-care&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/products/puregold-stops.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/products\/puregold-stops.jpg'" alt="Pure Gold Stops Itch Spray">
@@ -658,7 +661,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;hair-care&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/products/puregold-style.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/products\/puregold-style.jpg'" alt="Pure Gold Stops Itch Spray">
@@ -677,7 +680,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;septic&quot;,&quot;drain&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/products/septic.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/products\/septic.jpg'" alt="Septic Systems MaintenenceCleaner">
@@ -696,7 +699,7 @@
 				</div>
 			</div>
 			
-			<div class="col-lg-4 shuffle-item"
+			<div class="col-lg-4 col-md-6 shuffle-item"
 				data-groups="[&quot;kitchen&quot;,&quot;bathroom&quot;]">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="https://examplesite.com/images/products/handwash-bottle.webp" onerror="this.onerror=null;this.src='https:\/\/examplesite.com\/images\/products\/handwash-bottle.jpg'" alt="Liquid Hand Soap">
